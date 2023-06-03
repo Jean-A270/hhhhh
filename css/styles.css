@@ -122,19 +122,23 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  color: white
 }
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
+	color: white
   }
 }
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  color: white
 }
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
+	color: white
   }
 }
 
@@ -10690,7 +10694,7 @@ header.masthead:before {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: #fff;
+  color: white;
 }
 header.masthead .page-heading,
 header.masthead .site-heading {
